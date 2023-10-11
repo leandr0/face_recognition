@@ -1,0 +1,21 @@
+# Ignore Mac system files
+.DS_store
+.idea
+
+# Ignore node_modules folder
+node_modules
+
+# Ignore imager files
+*.jpg
+*.jpeg
+*.png
+
+# Ignore large files
+*.zip
+*.npy
+
+log/
+dataset/
+
+# Ignore files related to API keys
+.env
